@@ -2,7 +2,7 @@
   "name": "koda-vscode",
   "displayName": "KODA Language Support",
   "description": "Yerli ve milli programlama dili KODA için VSCode desteği.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/emrepakoz/koda-vscode.git"
