@@ -1,0 +1,29 @@
+{
+  "scopeName": "source.koda",
+  "patterns": [
+    { "include": "#keywords" },
+    { "include": "#comments" },
+    { "include": "#strings" }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [{
+        "name": "keyword.control.koda",
+        "match": "\\b(function|if|else|return|var|print)\\b"
+      }]
+    },
+    "comments": {
+      "patterns": [{
+        "name": "comment.line.double-slash.koda",
+        "match": "//.*$"
+      }]
+    },
+    "strings": {
+      "patterns": [{
+        "name": "string.quoted.double.koda",
+        "begin": """,
+        "end": """
+      }]
+    }
+  }
+}

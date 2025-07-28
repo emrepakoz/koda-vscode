@@ -1,0 +1,28 @@
+{
+  "name": "koda",
+  "displayName": "KODA Language Support",
+  "description": "Yerli ve milli programlama dili KODA için VSCode desteği.",
+  "version": "0.0.1",
+  "publisher": "emrepakoz",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [{
+      "id": "koda",
+      "aliases": ["KODA", "koda"],
+      "extensions": [".koda"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "koda",
+      "scopeName": "source.koda",
+      "path": "./syntaxes/koda.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "koda",
+      "path": "./snippets/koda.code-snippets"
+    }]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Print Statement": {
+    "prefix": "print",
+    "body": ["print(\"$1\")"],
+    "description": "Print a string"
+  },
+  "Function Template": {
+    "prefix": "function",
+    "body": [
+      "function ${1:functionName}() {",
+      "    $2",
+      "}"
+    ],
+    "description": "Create a KODA function"
+  }
+}
