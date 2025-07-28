@@ -2,6 +2,8 @@
 
 KODA, yerli ve milli, C# tarzı sözdizimine sahip, sade ve çok platformlu bir programlama dilidir.
 
+# ![KODA](./assets/koda-icon.svg) KODA
+
 ## Özellikler
 - Sözdizimi vurgulama
 - Kod şablonları
